@@ -1,0 +1,3 @@
+[submodule "etcd-browser"]
+	path = etcd-browser
+	url = https://github.com/henszey/etcd-browser.git
