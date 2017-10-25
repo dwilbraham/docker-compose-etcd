@@ -7,6 +7,7 @@ services:
     volumes:
       - etcd0:/etcd_data
     command:
+      - /usr/local/bin/etcd
       - -name
       - etcd0
       - --data-dir
@@ -28,6 +29,7 @@ services:
     volumes:
       - etcd1:/etcd_data
     command:
+      - /usr/local/bin/etcd
       - -name
       - etcd1
       - --data-dir
@@ -49,6 +51,7 @@ services:
     volumes:
       - etcd2:/etcd_data
     command:
+      - /usr/local/bin/etcd
       - -name
       - etcd2
       - --data-dir
